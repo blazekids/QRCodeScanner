@@ -1,0 +1,279 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC7986FA14A1CF4700352E3C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC7986F914A1CF4700352E3C /* UIKit.framework */; };
+		AC7986FC14A1CF4700352E3C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC7986FB14A1CF4700352E3C /* Foundation.framework */; };
+		AC7986FE14A1CF4700352E3C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC7986FD14A1CF4700352E3C /* CoreGraphics.framework */; };
+		AC79870414A1CF4700352E3C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AC79870214A1CF4700352E3C /* InfoPlist.strings */; };
+		AC79870614A1CF4700352E3C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AC79870514A1CF4700352E3C /* main.m */; };
+		AC79870A14A1CF4700352E3C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AC79870914A1CF4700352E3C /* AppDelegate.m */; };
+		AC79870D14A1CF4700352E3C /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC79870B14A1CF4700352E3C /* MainStoryboard.storyboard */; };
+		AC79871014A1CF4700352E3C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC79870F14A1CF4700352E3C /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AC7986F514A1CF4700352E3C /* QRCodeSacnner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QRCodeSacnner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC7986F914A1CF4700352E3C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AC7986FB14A1CF4700352E3C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AC7986FD14A1CF4700352E3C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AC79870114A1CF4700352E3C /* QRCodeSacnner-Info.plist */ = {isa = PBXFileReference; path = "QRCodeSacnner-Info.plist"; sourceTree = "<group>"; };
+		AC79870314A1CF4700352E3C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AC79870514A1CF4700352E3C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AC79870714A1CF4700352E3C /* QRCodeSacnner-Prefix.pch */ = {isa = PBXFileReference; path = "QRCodeSacnner-Prefix.pch"; sourceTree = "<group>"; };
+		AC79870814A1CF4700352E3C /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		AC79870914A1CF4700352E3C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AC79870C14A1CF4700352E3C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		AC79870E14A1CF4700352E3C /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		AC79870F14A1CF4700352E3C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC7986F214A1CF4700352E3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC7986FA14A1CF4700352E3C /* UIKit.framework in Frameworks */,
+				AC7986FC14A1CF4700352E3C /* Foundation.framework in Frameworks */,
+				AC7986FE14A1CF4700352E3C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC7986EA14A1CF4700352E3C = {
+			isa = PBXGroup;
+			children = (
+				AC7986FF14A1CF4700352E3C /* QRCodeSacnner */,
+				AC7986F814A1CF4700352E3C /* Frameworks */,
+				AC7986F614A1CF4700352E3C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC7986F614A1CF4700352E3C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC7986F514A1CF4700352E3C /* QRCodeSacnner.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC7986F814A1CF4700352E3C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AC7986F914A1CF4700352E3C /* UIKit.framework */,
+				AC7986FB14A1CF4700352E3C /* Foundation.framework */,
+				AC7986FD14A1CF4700352E3C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AC7986FF14A1CF4700352E3C /* QRCodeSacnner */ = {
+			isa = PBXGroup;
+			children = (
+				AC79870814A1CF4700352E3C /* AppDelegate.h */,
+				AC79870914A1CF4700352E3C /* AppDelegate.m */,
+				AC79870B14A1CF4700352E3C /* MainStoryboard.storyboard */,
+				AC79870E14A1CF4700352E3C /* ViewController.h */,
+				AC79870F14A1CF4700352E3C /* ViewController.m */,
+				AC79870014A1CF4700352E3C /* Supporting Files */,
+			);
+			path = QRCodeSacnner;
+			sourceTree = "<group>";
+		};
+		AC79870014A1CF4700352E3C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AC79870114A1CF4700352E3C /* QRCodeSacnner-Info.plist */,
+				AC79870214A1CF4700352E3C /* InfoPlist.strings */,
+				AC79870514A1CF4700352E3C /* main.m */,
+				AC79870714A1CF4700352E3C /* QRCodeSacnner-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC7986F414A1CF4700352E3C /* QRCodeSacnner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC79871314A1CF4700352E3C /* Build configuration list for PBXNativeTarget "QRCodeSacnner" */;
+			buildPhases = (
+				AC7986F114A1CF4700352E3C /* Sources */,
+				AC7986F214A1CF4700352E3C /* Frameworks */,
+				AC7986F314A1CF4700352E3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QRCodeSacnner;
+			productName = QRCodeSacnner;
+			productReference = AC7986F514A1CF4700352E3C /* QRCodeSacnner.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC7986EC14A1CF4700352E3C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = AC7986EF14A1CF4700352E3C /* Build configuration list for PBXProject "QRCodeSacnner" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AC7986EA14A1CF4700352E3C;
+			productRefGroup = AC7986F614A1CF4700352E3C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC7986F414A1CF4700352E3C /* QRCodeSacnner */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC7986F314A1CF4700352E3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC79870414A1CF4700352E3C /* InfoPlist.strings in Resources */,
+				AC79870D14A1CF4700352E3C /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC7986F114A1CF4700352E3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC79870614A1CF4700352E3C /* main.m in Sources */,
+				AC79870A14A1CF4700352E3C /* AppDelegate.m in Sources */,
+				AC79871014A1CF4700352E3C /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AC79870214A1CF4700352E3C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC79870314A1CF4700352E3C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AC79870B14A1CF4700352E3C /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC79870C14A1CF4700352E3C /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC79871114A1CF4700352E3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AC79871214A1CF4700352E3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC79871414A1CF4700352E3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QRCodeSacnner/QRCodeSacnner-Prefix.pch";
+				INFOPLIST_FILE = "QRCodeSacnner/QRCodeSacnner-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AC79871514A1CF4700352E3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QRCodeSacnner/QRCodeSacnner-Prefix.pch";
+				INFOPLIST_FILE = "QRCodeSacnner/QRCodeSacnner-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC7986EF14A1CF4700352E3C /* Build configuration list for PBXProject "QRCodeSacnner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC79871114A1CF4700352E3C /* Debug */,
+				AC79871214A1CF4700352E3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC79871314A1CF4700352E3C /* Build configuration list for PBXNativeTarget "QRCodeSacnner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC79871414A1CF4700352E3C /* Debug */,
+				AC79871514A1CF4700352E3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC7986EC14A1CF4700352E3C /* Project object */;
+}
