@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "ViewController.h"
 
 @implementation AppDelegate
 
@@ -20,7 +21,11 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    sleep(2);
+    /*ViewController * viewController = [[ViewController alloc] init];
+    [viewController showSplash];
     // Override point for customization after application launch.
+    [viewController release];*/
     return YES;
 }
 							

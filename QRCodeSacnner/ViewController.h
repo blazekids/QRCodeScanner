@@ -9,5 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
-
+{
+}
+/*- (void)showSplash;
+- (void)hideSplash;*/
 @end

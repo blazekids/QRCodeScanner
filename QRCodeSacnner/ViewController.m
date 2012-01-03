@@ -57,4 +57,22 @@
     return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
 }
 
+/*-(void)showSplash
+{
+    
+    UIViewController *modalViewController = [[UIViewController alloc] init];
+    
+    modalViewController.view = modelView;
+    
+    [self presentModalViewController:modalViewController animated:NO];
+    
+    [self performSelector:@selector(hideSplash) withObject:nil afterDelay:2.0];
+    
+}
+
+- (void)hideSplash{
+    
+    [[self modalViewController] dismissModalViewControllerAnimated:YES];
+    
+}*/
 @end
